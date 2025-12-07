@@ -1,10 +1,6 @@
 # cbs-emergency-alert-receiver
 CBS Emergency Alert Receiver - MSc Dissertation Project
 
-# CBS Emergency Alert Receiver
-
-MSc Dissertation Project
-
 ## Project Overview
 
 4G LTE Cell Broadcast Service (CBS) emergency alert receiver
@@ -31,51 +27,51 @@ This 4G optimised system (2.29s latency) outperforms baseline 5G implementations
 ## Project Structure
 
 Main Program
-
+------------
 CBS_System.ino - Main Arduino sketch, setup, and loop functions
 
 CBS Message Handling Module
-
+---------------------------
 CBSHandler.cpp - CBS message reception, PDU parsing, GSM-7 decoding implementation
 CBSHandler.h - CBS handler interface and message structure definitions
 
 Call Management Module
-
+----------------------
 CallHandler.cpp - Phone call handling and voice communication implementation
 CallHandler.h - Call handler interface and call state definitions
 
 Network Communication Module
-
+----------------------------
 NetworkManager.cpp - 4G network registration, signal monitoring, connectivity management
 NetworkManager.h - Network manager interface and network status structures
 
 Modem Communication Module
-
+--------------------------
 ModemComm.cpp - Low-level UART communication, AT command handling implementation
 ModemComm.h - Modem communication interface and AT command definitions
 
 Display Management Module
-
+-------------------------
 DisplayManager.cpp - TFT display control, screen rendering, alert visualization
 DisplayManager.h - Display manager interface and screen layout definitions
 
 Command Interface Module
-
+------------------------
 Commands.cpp - Serial command processing, debugging commands, test functions
 Commands.h - Command interface and command handler definitions
 
 Configuration Module
-
+--------------------
 Config.cpp - System configuration, settings storage, parameter management
 Config.h - Configuration interface, constants, and GPIO pin definitions
 
 Testing Module
-
+--------------
 TestSuite.cpp - Unit tests, integration tests, performance validation
 TestSuite.h - Test suite interface and test case definitions
 
 Library Configuration
-
+---------------------
 User_Setup.h - TFT_eSPI library configuration (display pins, driver selection)
 
 ## Features
