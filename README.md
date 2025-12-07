@@ -1,4 +1,4 @@
-# cbs-emergency-alert-receiver
+# CBS-EMERGENCY-ALERT-RECEIVER
 CBS Emergency Alert Receiver - MSc Dissertation Project
 
 ## PROJECT OVERVIEW
