@@ -95,6 +95,4 @@ User_Setup.h - TFT_eSPI library configuration (display pins, driver selection)
 
 ## AUTHOR
 
-Tharun Kumar Kommuri
-MSc Electrical and Electronics Engineering  
-Coventry University  
+Tharun Kumar Kommuri, MSc Electrical and Electronics Engineering, Coventry University  
