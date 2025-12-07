@@ -1,11 +1,11 @@
 # cbs-emergency-alert-receiver
 CBS Emergency Alert Receiver - MSc Dissertation Project
 
-## Project Overview
+## PROJECT OVERVIEW
 
 4G LTE Cell Broadcast Service (CBS) emergency alert receiver
 
-## Key Results
+## KEY RESULTS
 
 - **Latency:** 2.29s (54% faster than 5s UK requirement)
 - **Reliability:** 98.2% (110/112 messages over 24 hours)
@@ -13,18 +13,18 @@ CBS Emergency Alert Receiver - MSc Dissertation Project
 - **Cost:** £80 development cost
 - **Target Users:** 2.7M elderly UK citizens without smartphones
 
-## Hardware
+## HARDWARE
 
 - ESP32-WROOM-32 microcontroller
 - SIM7600E-H 4G LTE modem
 - ILI9341 2.8" TFT display
 - RGB LEDs for status indication
 
-## Performance Comparison
+## PERFROMANCE COMPARISON
 
 This 4G optimised system (2.29s latency) outperforms baseline 5G implementations (5.0s) by 54%, demonstrating that system-level optimisation is more impactful than network generation for CBS delivery.
 
-## Project Structure
+## PROJECT STRUCTURE
 
 Main Program
 ------------
@@ -74,7 +74,7 @@ Library Configuration
 ---------------------
 User_Setup.h - TFT_eSPI library configuration (display pins, driver selection)
 
-## Features
+## FEATURES
 
 - CBS message reception and parsing
 - GSM-7 character decoding
@@ -84,16 +84,16 @@ User_Setup.h - TFT_eSPI library configuration (display pins, driver selection)
 - Performance monitoring (latency tracking)
 - Message deduplication
 
-## Technical Specifications
+## TECHNICAL SPECIFICATIONS
 
 - **Network:** 4G LTE Cat 4 (UK bands B1/B3/B7/B8/B20)
 - **Protocol:** 3GPP TS 23.041 CBS standard
 - **Alert Types:** UK Emergency Alerts (Message IDs 4370-4382)
 - **Processing:** ESP32 dual-core 240 MHz
 - **Display:** 320x240 RGB565 TFT, 40 MHz SPI
-- **Total Code:** 3,200+ lines across 17 files
+- **Total Code:** 3,200+ lines across 18 files
 
-## Author
+## AUTHOR
 
 Tharun  
 MSc Electrical and Electronics Engineering  
